@@ -56,7 +56,7 @@ def organize_downloads():
                 shutil.move(file_path, os.path.join(other_folder, filename))
                 print(f"Moved: {filename} -> Others/")
 
-        print("\nOrganization of Downloads complete!")
+        print("\nOrganization of Downloads complete!\nScript by thahirsprojects. Thank you for using it!")
 
     except Exception as e:
         print(f"Error: {e}")
